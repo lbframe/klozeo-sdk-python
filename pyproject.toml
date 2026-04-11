@@ -31,8 +31,8 @@ dependencies = [
 [project.urls]
 Homepage = "https://klozeo.com"
 Documentation = "https://docs.klozeo.com"
-Repository = "https://github.com/klozeo/sdk-python"
-"Bug Tracker" = "https://github.com/klozeo/sdk-python/issues"
+Repository = "https://github.com/lbframe/sdk-python"
+"Bug Tracker" = "https://github.com/lbframe/sdk-python/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["klozeo"]
