@@ -36,7 +36,7 @@ from ._utils import (
     update_payload,
 )
 
-DEFAULT_BASE_URL = "https://app.klozeo.com/api/v1"
+DEFAULT_BASE_URL = "https://api.klozeo.com/api/v1"
 _RETRY_STATUSES = {429, 500, 502, 503, 504}
 
 
