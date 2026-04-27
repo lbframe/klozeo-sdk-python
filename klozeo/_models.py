@@ -108,6 +108,7 @@ class Lead(BaseModel):
     tags: list[str] | None = None
     source_id: str | None = None
     logo_url: str | None = None
+    status: str | None = None
     attributes: list[Attribute] | None = None
 
     # Read-only (server-set)
@@ -146,6 +147,7 @@ class UpdateLeadInput(BaseModel):
     tags: list[str] | None = None
     source_id: str | None = None
     logo_url: str | None = None
+    status: str | None = None
 
 
 # ---------------------------------------------------------------------------
