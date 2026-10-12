@@ -83,3 +83,7 @@ except KlozeoError as e:
 - Documentation: https://docs.klozeo.com
 - API Reference: https://docs.klozeo.com/api/leads
 - PyPI: https://pypi.org/project/klozeo
+
+## License
+
+MIT. See [LICENSE](LICENSE).
